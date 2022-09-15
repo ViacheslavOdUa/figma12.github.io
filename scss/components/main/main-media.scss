@@ -1,0 +1,128 @@
+@media (max-width: 1024px) {
+    .header__wrapper-maininfo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header .container .header__wrapper .header__wrapper-maininfo .header__wrapper_maininfo-text{
+        width: 100%;
+        padding-top: 0;
+        padding-right: 0;
+        padding-bottom: 75px;
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            padding-right: 0;
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+        }
+        .header__wrapper_maininfo-image{
+            width: 60%;
+        }
+        
+    }
+    .plan__tariffs{
+        flex-wrap: wrap;
+        justify-content: center;
+        div:not(:last-child){
+            margin: 0 20px 20px 0 ;
+        }
+        
+    }
+    
+    
+    }
+    @media (max-width: 767px) {
+
+        .logo .container .logotips {
+            justify-content: space-around;
+            div{
+               width: calc((100% - 20px) / 3);
+               padding-bottom: 20px;
+            }
+            
+            img{
+                width: 70%;
+            }
+        }
+        .features__subscription,.features__metrics{
+            padding-top: 75px;
+            flex-wrap: wrap;
+            
+            .image {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 80%;
+            }
+            }
+            .text{
+                width: 100%;
+                h2{font-size: 45px;
+                line-height: 50px;}
+                
+            }
+            
+        }
+        .features__subscription{
+            padding-bottom: 0;               
+            }
+            .features__subscription-img{
+                padding-bottom: 40px;
+            }
+            .features__metrics-text text{
+                padding-bottom: 40px;
+            }
+            .features__metrics{
+            padding-bottom: 75px
+            }
+            .pricing__wrapper{
+                flex-wrap: wrap;
+                padding-bottom: 75px;
+                div{
+                    width: 100%;
+                }
+                div:not(:last-child){
+                    padding-bottom: 40px;
+                }
+            }
+            .pricing__wrapper .pricing__wrapper-benchmarks, .pricing__wrapper .pricing__wrapper-priceaud, .pricing__wrapper .pricing__wrapper-retention{
+                padding-right: 0;
+            }
+            .plan__aboutplan{
+                flex-wrap: wrap;
+            }
+            .plan .container .plan__aboutplan h2 {
+                width: 100%;
+                font-size: 45px;
+                line-height: 50px;
+                padding-bottom: 40px;
+
+            
+            }
+            .plan .container .plan__aboutplan div{
+           width: 100%;
+            }
+            .plan__tariffs{
+                margin-top: 60px;
+            }
+            .plan__tariffs div{
+                    width: 75%;
+                    height: 360px;
+                
+            }
+            .plan__tariffs div:not(:last-child)
+            {
+                margin: 0 0 25px 0; ;
+            }
+            .features__metrics-text{
+                padding-bottom: 40px;
+            }
+
+           
+      }

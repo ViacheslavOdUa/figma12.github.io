@@ -1,0 +1,45 @@
+$maincolor: #19191B;
+$hover-color:#19191B;
+$textcolor: #696871;
+$bordercolor:#5454D4;
+$bgcolor:#F2F2F2;
+@mixin button-option($bagcol){
+    padding: 19px 60px ;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    border-color: transparent;
+    background-color: $bagcol;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.53px;
+}
+%h2option{
+
+            font-size: 50px;
+            line-height: 57px;
+            letter-spacing: -1.56316px;
+            color: $maincolor;
+            padding-bottom: 30px;
+            font-weight: 700;
+}
+%p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: $textcolor;
+    padding-bottom: 30px;
+    max-width: 460px;
+}
+%a{
+    color: #5454D4;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+}
+%display{
+    display: flex;
+    align-items: center;
+}
